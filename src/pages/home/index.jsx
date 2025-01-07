@@ -1,5 +1,10 @@
 import React from 'react';
+import './index.css';
+import App from './App';
+import { ThemeProvider } from 'styled-components';
 
+import theme from './styles/theme';
+import GlobalStyle from './styles/theme/globalStyle';
 import { ContainerFluid } from '../../components/container';
 import BannerSection from './components/banner-section';
 import CarouselSection from './components/carousel-section';
@@ -18,3 +23,6 @@ const Home = () => {
 }
 
 export default Home;
+
+
+
