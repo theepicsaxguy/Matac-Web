@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Vite Dev Server",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/vite/bin/vite.js",
+        "args": ["--port", "5173"],
+        "cwd": "${workspaceFolder}",
+        "sourceMaps": true,
+        "console": "integratedTerminal",
+        "env": {
+          "NODE_ENV": "development"
+        }
+      },
+      {
+        "name": "Attach to Vite Dev Server",
+        "type": "node",
+        "request": "attach",
+        "port": 9229,
+        "restart": true,
+        "sourceMaps": true,
+        "localRoot": "${workspaceFolder}",
+        "remoteRoot": "/root/Gaming-Landing-Page"
+      }
+    ]
+  }
+  

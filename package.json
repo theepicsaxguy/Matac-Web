@@ -1,26 +1,26 @@
 {
-  "name": "ReactJS-Fall-Guys-Landing-Page",
+  "name": "Matac-Web",
   "version": "0.1.0",
-  "homepage": "https://github.com/Suleiman700/ReactJS-Fall-Guys-Landing-Page/",
+  "homepage": "https://github.com/Suleiman700/Matac-Web/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
     "styled-components": "^5.3.6",
+    "vite": "^6.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
