@@ -4,7 +4,7 @@
   "homepage": "https://github.com/Suleiman700/Matac-Web/",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/jest-dom": "^7.0.0",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.0.0",
     "@vitejs/plugin-react": "^4.3.4",
